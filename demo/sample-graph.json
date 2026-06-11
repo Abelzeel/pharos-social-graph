@@ -1,0 +1,106 @@
+{
+  "meta": {
+    "seed": "0x742d35cc6634c0532925a3b844bc9e7595f0beb0",
+    "network": "atlantic-testnet",
+    "blockRange": { "from": 23850000, "to": 23895008 },
+    "builtAt": "2026-06-11T10:00:00Z",
+    "depth": 2
+  },
+  "stats": {
+    "nodeCount": 5,
+    "edgeCount": 4,
+    "seed": "0x742d35cc6634c0532925a3b844bc9e7595f0beb0",
+    "network": "atlantic-testnet",
+    "blockRange": { "from": 23850000, "to": 23895008 }
+  },
+  "nodes": {
+    "0x742d35cc6634c0532925a3b844bc9e7595f0beb0": {
+      "address": "0x742d35cc6634c0532925a3b844bc9e7595f0beb0",
+      "firstSeen": 23850100,
+      "lastSeen": 23894900,
+      "txCount": 4,
+      "sentCount": 2,
+      "receivedCount": 2,
+      "inDegree": 2,
+      "outDegree": 2,
+      "totalSentRaw": "1500000000000000000",
+      "totalReceivedRaw": "2000000000000000000",
+      "counterparties": {
+        "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa": 2,
+        "0xbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb": 2
+      }
+    },
+    "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa": {
+      "address": "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "firstSeen": 23850100,
+      "lastSeen": 23850200,
+      "txCount": 2,
+      "sentCount": 1,
+      "receivedCount": 1,
+      "inDegree": 1,
+      "outDegree": 1,
+      "totalSentRaw": "500000000000000000",
+      "totalReceivedRaw": "1000000000000000000",
+      "counterparties": {
+        "0x742d35cc6634c0532925a3b844bc9e7595f0beb0": 2
+      }
+    },
+    "0xbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb": {
+      "address": "0xbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+      "firstSeen": 23860000,
+      "lastSeen": 23894900,
+      "txCount": 2,
+      "sentCount": 1,
+      "receivedCount": 1,
+      "inDegree": 1,
+      "outDegree": 1,
+      "totalSentRaw": "1000000000000000000",
+      "totalReceivedRaw": "500000000000000000",
+      "counterparties": {
+        "0x742d35cc6634c0532925a3b844bc9e7595f0beb0": 2
+      }
+    }
+  },
+  "edges": [
+    {
+      "from": "0x742d35cc6634c0532925a3b844bc9e7595f0beb0",
+      "to": "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "token": "0xcccccccccccccccccccccccccccccccccccccccc",
+      "totalValueRaw": "1000000000000000000",
+      "count": 1,
+      "firstSeen": 23850100,
+      "lastSeen": 23850100,
+      "sampleTxs": []
+    },
+    {
+      "from": "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "to": "0x742d35cc6634c0532925a3b844bc9e7595f0beb0",
+      "token": "0xcccccccccccccccccccccccccccccccccccccccc",
+      "totalValueRaw": "1000000000000000000",
+      "count": 1,
+      "firstSeen": 23850200,
+      "lastSeen": 23850200,
+      "sampleTxs": []
+    },
+    {
+      "from": "0x742d35cc6634c0532925a3b844bc9e7595f0beb0",
+      "to": "0xbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+      "token": "0xcccccccccccccccccccccccccccccccccccccccc",
+      "totalValueRaw": "500000000000000000",
+      "count": 1,
+      "firstSeen": 23860000,
+      "lastSeen": 23860000,
+      "sampleTxs": []
+    },
+    {
+      "from": "0xbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+      "to": "0x742d35cc6634c0532925a3b844bc9e7595f0beb0",
+      "token": "0xcccccccccccccccccccccccccccccccccccccccc",
+      "totalValueRaw": "500000000000000000",
+      "count": 1,
+      "firstSeen": 23894900,
+      "lastSeen": 23894900,
+      "sampleTxs": []
+    }
+  ]
+}

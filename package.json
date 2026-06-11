@@ -1,0 +1,41 @@
+{
+  "name": "pharos-social-graph",
+  "version": "0.1.0",
+  "description": "A Node.js Skill for AI Agents on Pharos — turns on-chain Transfer events into a queryable social graph with PageRank, community detection, and Sybil flagging.",
+  "type": "module",
+  "main": "SKILL.md",
+  "bin": {
+    "pharos-graph-extract": "scripts/graph-extract.js",
+    "pharos-graph-report": "scripts/graph-report.js"
+  },
+  "scripts": {
+    "extract": "node scripts/graph-extract.js",
+    "ego": "node scripts/graph-ego.js",
+    "clusters": "node scripts/graph-clusters.js",
+    "pagerank": "node scripts/graph-pagerank.js",
+    "path": "node scripts/graph-path.js",
+    "sybils": "node scripts/graph-sybils.js",
+    "export": "node scripts/graph-export.js",
+    "report": "node scripts/graph-report.js",
+    "test": "node tests/test-graph.js"
+  },
+  "keywords": [
+    "pharos",
+    "agent",
+    "skill",
+    "anvita",
+    "web3",
+    "ai",
+    "on-chain",
+    "graph",
+    "pagerank",
+    "sybil",
+    "mcp"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "license": "MIT-0"
+}

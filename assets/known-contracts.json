@@ -1,0 +1,29 @@
+{
+  "version": "0.1.0",
+  "lastUpdated": "2026-06-11",
+  "description": "Labeled addresses for the Pharos Agent ecosystem. Used to flag whether a wallet in the social graph is a known contract (DEX, CEX, bridge) or an EOA. Maintainers add entries as the ecosystem grows.",
+  "addresses": [
+    {
+      "address": "0x0000000000000000000000000000000000000000",
+      "label": "Zero Address",
+      "category": "sentinel",
+      "note": "Mint / burn address. Edges involving this are typically airdrops, mints, or self-destructs."
+    },
+    {
+      "address": "0x000000000000000000000000000000000000dEaD",
+      "label": "Dead Address",
+      "category": "sentinel",
+      "note": "Commonly used as a burn sink."
+    }
+  ],
+  "categories": {
+    "sentinel": "Mint / burn / dead addresses. Edges to/from these are usually not human-to-human.",
+    "dex": "Decentralized exchange router / pair contract",
+    "cex": "Centralized exchange hot wallet (label public addresses only)",
+    "bridge": "Cross-chain bridge contract",
+    "lending": "Lending protocol",
+    "nft-marketplace": "NFT marketplace contract",
+    "deployer": "Known deployer EOA (team wallets, foundation)",
+    "faucet": "Testnet faucet (only relevant on testnet)"
+  }
+}
