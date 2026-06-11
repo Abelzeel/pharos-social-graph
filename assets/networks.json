@@ -5,19 +5,20 @@
       "displayName": "Atlantic Testnet",
       "chainId": 688688,
       "rpcUrl": "https://atlantic.dplabs-internal.com",
-      "explorerUrl": "https://atlantic.pharosscan.com",
+      "explorerUrl": "https://atlantic.pharosscan.xyz",
       "nativeToken": "PHRS",
       "isTestnet": true,
       "default": true
     },
     {
       "name": "mainnet",
-      "displayName": "Pharos Mainnet",
-      "chainId": 688689,
-      "rpcUrl": "https://rpc.pharosnetwork.xyz",
-      "explorerUrl": "https://pharosscan.com",
-      "nativeToken": "PHRS",
-      "isTestnet": false
+      "displayName": "Pharos Pacific Ocean Mainnet",
+      "chainId": 1672,
+      "rpcUrl": "https://rpc.pharos.xyz",
+      "explorerUrl": "https://pharosscan.xyz",
+      "nativeToken": "PROS",
+      "isTestnet": false,
+      "default": false
     }
   ]
 }

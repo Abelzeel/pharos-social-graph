@@ -96,7 +96,7 @@ export async function isContract(url, addr) {
  */
 export async function* getLogsPaged(url, baseFilter, opts = {}) {
   const {
-    pageSize = 2_000,        // blocks per page
+    pageSize = 500,        // blocks per page
     maxResults = 50_000,      // safety cap per filter
     sleepMs = 50,             // throttle between pages
   } = opts;
