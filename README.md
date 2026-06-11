@@ -1,5 +1,8 @@
 # Pharos Social Graph
 
+> 🌐 **Live demo:** [pxg0cgwhyjf9.space.minimax.io](https://pxg0cgwhyjf9.space.minimax.io)
+> — try the chat agent right in your browser, no install.
+
 A Node.js **Skill** for AI Agents operating on Pharos. Turns on-chain
 `Transfer` events into a queryable social graph and runs real
 graph-theory algorithms on it.
