@@ -55,9 +55,9 @@ cd pharos-social-graph
 
 # 2. Run a one-shot report (Node 18+ only — no npm install needed)
 node scripts/graph-report.js \
-  --seed 0x742d35Cc6634C0532925a3b844Bc9e7595f0bEb0 \
+  --seed 0xa690a947ea3326074db114090b3a6a13ad4c7d77 \
   --depth 2 \
-  --lookback 50000 \
+  --lookback 1000 \
   --out output/report.json
 
 # 3. Drop the Mermaid diagram into a markdown file
